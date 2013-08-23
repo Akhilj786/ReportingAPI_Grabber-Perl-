@@ -14,11 +14,10 @@ $VERSION = 0.01;
 @EXPORT   = qw($DBIconnect);      # Symbols to autoexport (:DEFAULT tag)
 %EXPORT_TAGS = ();
 
-our $database = "Farm_Mobstor";
 
+our $database = "Farm_Mobstor";
 our $host = "127.0.0.1";
 our  $port = "3306";
-
 our  $user = "root";
 our  $pw = "";
 
