@@ -1,5 +1,6 @@
 #!usr/bin/perl
-use lib '../Reporting_Parser';#Path for dbconn.pm
+use FindBin;
+use lib "$FindBin::Bin/../Reporting_Parser/";#Path for dbconn.pm
 use strict;
 use warnings;
 use JSON;
