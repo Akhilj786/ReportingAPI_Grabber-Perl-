@@ -1,6 +1,7 @@
 #!usr/bin/perl
+
 use FindBin;
-use lib "$FindBin::Bin/../Reporting_Parser/";#Path for dbconn.pm
+use lib "$FindBin::Bin/../Reporting_Parser/";#Relative Path for dbconn.pm
 use strict;
 use warnings;
 use JSON;
@@ -14,6 +15,7 @@ use XML::Simple;
 use LWP::Simple;
 
 my $ browser=LWP::UserAgent->new;
+#Capture current date
 my $datetime=DateTime->now;
 my $date_val=$datetime->ymd;
 
